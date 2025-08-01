@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/somya/Downloads/222106.jpg" added="2025-07-22T19:16:50.625930Z" modified="2025-07-22T19:16:50.963966Z" visited="2025-07-22T19:16:50.625931Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-07-22T19:16:50.963964Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/somya/Downloads/99807.jpg" added="2025-07-22T19:18:49.688860Z" modified="2025-07-22T19:18:50.055092Z" visited="2025-07-22T19:18:49.688862Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-07-22T19:18:50.055087Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/somya/Downloads/wp11639109.jpg" added="2025-07-23T04:56:59.246711Z" modified="2025-07-23T04:56:59.556248Z" visited="2025-07-23T04:56:59.246712Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-07-23T04:56:59.556244Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/somya/2025-07-23_15-29.png" added="2025-07-23T10:00:04.590256Z" modified="2025-07-23T10:00:04.590262Z" visited="2025-07-23T10:00:04.590257Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-07-23T10:00:04.590259Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/somya/2025-07-23_15-41.png" added="2025-07-23T10:11:22.439737Z" modified="2025-07-23T10:11:22.439748Z" visited="2025-07-23T10:11:22.439739Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-07-23T10:11:22.439742Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/somya/Downloads/embrace-364091.mp3" added="2025-07-23T12:28:31.763117Z" modified="2025-07-23T12:28:31.763122Z" visited="2025-07-23T12:28:31.763118Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-07-23T12:28:31.763119Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/somya/Downloads/wallpaper3.png" added="2025-07-30T08:10:29.712204Z" modified="2025-07-30T08:10:30.103224Z" visited="2025-07-30T08:10:29.712206Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-07-30T08:10:30.103221Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/somya/2025-07-22_23-58.png" added="2025-07-30T17:08:15.288893Z" modified="2025-07-30T17:08:15.288897Z" visited="2025-07-30T17:08:15.288894Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-07-30T17:08:15.288895Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/somya/2025-07-30_22-37.png" added="2025-07-30T17:08:29.290412Z" modified="2025-07-30T17:08:29.290416Z" visited="2025-07-30T17:08:29.290413Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-07-30T17:08:29.290414Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/somya/Downloads" added="2025-07-31T07:06:07.375273Z" modified="2025-07-31T07:06:07.375280Z" visited="2025-07-31T07:06:07.375274Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="nitrogen" exec="&apos;nitrogen %u&apos;" modified="2025-07-31T07:06:07.375277Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/somya/Downloads/Dracula.tar.xz" added="2025-07-31T08:28:01.788107Z" modified="2025-07-31T08:28:01.788119Z" visited="2025-07-31T08:28:01.788109Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xz-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-07-31T08:28:01.788113Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/somya/Downloads/dracula-icons-circle.zip" added="2025-07-31T08:30:37.916332Z" modified="2025-07-31T08:30:37.916338Z" visited="2025-07-31T08:30:37.916333Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-07-31T08:30:37.916334Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/somya/Downloads/292827.mp4" added="2025-08-01T04:40:13.774207Z" modified="2025-08-01T04:40:13.774212Z" visited="2025-08-01T04:40:13.774208Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-08-01T04:40:13.774209Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

@@ -1,0 +1,45 @@
+info_begin
+format: 2
+mpd_version: 0.24.3
+fs_charset: UTF-8
+tag: Artist
+tag: ArtistSort
+tag: Album
+tag: AlbumSort
+tag: AlbumArtist
+tag: AlbumArtistSort
+tag: Title
+tag: TitleSort
+tag: Track
+tag: Name
+tag: Genre
+tag: Mood
+tag: Date
+tag: OriginalDate
+tag: Composer
+tag: ComposerSort
+tag: Performer
+tag: Conductor
+tag: Work
+tag: Movement
+tag: MovementNumber
+tag: ShowMovement
+tag: Ensemble
+tag: Location
+tag: Grouping
+tag: Disc
+tag: Label
+tag: MUSICBRAINZ_ARTISTID
+tag: MUSICBRAINZ_ALBUMID
+tag: MUSICBRAINZ_ALBUMARTISTID
+tag: MUSICBRAINZ_TRACKID
+tag: MUSICBRAINZ_RELEASETRACKID
+tag: MUSICBRAINZ_WORKID
+tag: MUSICBRAINZ_RELEASEGROUPID
+info_end
+song_begin: embrace-364091.mp3
+Time: 156.96
+Format: 48000:16:2
+mtime: 1753273711
+added: 1754018539
+song_end

@@ -1,0 +1,9 @@
+2025-07-30 13:28:03.685 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-30 13:28:03.697 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-30 13:28:03.697 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-30 13:28:03.978 [info] Started local extension host with pid 5950.
+2025-07-30 13:28:04.061 [info] Started initializing default profile extensions in extensions installation folder. file:///home/somya/.vscode/extensions
+2025-07-30 13:28:04.068 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-07-30 13:28:04.307 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/somya/.vscode/extensions
+2025-07-30 13:28:05.023 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-07-30 13:28:08.609 [info] [perf] Render performance baseline is 30ms

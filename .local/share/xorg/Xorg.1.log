@@ -1,0 +1,89 @@
+[    15.261] 
+X.Org X Server 1.21.1.18
+X Protocol Version 11, Revision 0
+[    15.261] Current Operating System: Linux nixos 6.15.7 #1-NixOS SMP PREEMPT_DYNAMIC Thu Jul 17 16:44:05 UTC 2025 x86_64
+[    15.261] Kernel command line: BOOT_IMAGE=(hd0,msdos1)/nix/store/31lv2v075q36pv5ff45sjv6i8gp42qya-linux-6.15.7/bzImage init=/nix/store/vbhk9s178mqnfx2iv0kv1006m65ns0cr-nixos-system-nixos-25.05.806796.92c2e04a4755/init loglevel=4 lsm=landlock,yama,bpf
+[    15.261]  
+[    15.261] Current version of pixman: 0.44.2
+[    15.261] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    15.261] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    15.261] (==) Log file: "/home/somya/.local/share/xorg/Xorg.1.log", Time: Thu Jul 31 12:19:50 2025
+[    15.261] (++) Using config file: "/nix/store/x86gybcd3281cf53pap39fxr5n9lh1cw-xserver.conf"
+[    15.261] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[    15.261] (==) Using system config directory "/nix/store/ykck7gdd6szwrb3qnpb5y5fvjlnmzhz0-xorg-server-21.1.18/share/X11/xorg.conf.d"
+[    15.261] (==) ServerLayout "Layout[all]"
+[    15.261] (**) |-->Screen "Screen-modesetting[0]" (0)
+[    15.261] (**) |   |-->Monitor "<default monitor>"
+[    15.261] (**) |   |-->Device "Device-modesetting[0]"
+[    15.261] (==) No monitor specified for screen "Screen-modesetting[0]".
+	Using a default monitor configuration.
+[    15.261] (**) |-->Screen "Screen-fbdev[0]" (1)
+[    15.261] (**) |   |-->Monitor "<default monitor>"
+[    15.261] (**) |   |-->Device "Device-fbdev[0]"
+[    15.261] (==) No monitor specified for screen "Screen-fbdev[0]".
+	Using a default monitor configuration.
+[    15.261] (**) Option "DontZap" "on"
+[    15.261] (**) Option "AllowMouseOpenFail" "on"
+[    15.261] (**) Allowing byte-swapped clients
+[    15.261] (==) Automatically adding devices
+[    15.261] (==) Automatically enabling devices
+[    15.261] (==) Automatically adding GPU devices
+[    15.261] (==) Automatically binding GPU devices
+[    15.261] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    15.261] (**) FontPath set to:
+	/nix/store/br5444v4f1fiyr0wkxpz563h431ixbw5-font-cursor-misc-1.0.4/lib/X11/fonts/misc,
+	/nix/store/sfkyv775plsngjza4wdwibw0q4a0l6i1-font-misc-misc-1.1.3/lib/X11/fonts/misc,
+	/nix/store/59g15cw0i0jhnk5801acxgxr2pph8fic-unifont-16.0.03/share/fonts,
+	/nix/store/xld5rgdg8l37aw6wk3ss95y8xygyjx54-font-adobe-100dpi-1.0.4/lib/X11/fonts/100dpi,
+	/nix/store/r4zdn7769d8cywm55sbx654mfwswdnv9-font-adobe-75dpi-1.0.4/lib/X11/fonts/75dpi,
+	/nix/store/ypk2mk8rx91nwhipfr2libdmdmdqcngn-X11-fonts/share/X11/fonts
+[    15.261] (**) ModulePath set to "/nix/store/lx6x6hsap5zlrwx6rhq6g1pgx7rrbja1-xf86-video-fbdev-0.5.0/lib/xorg/modules,/nix/store/ykck7gdd6szwrb3qnpb5y5fvjlnmzhz0-xorg-server-21.1.18/lib/xorg/modules,/nix/store/x6lzdk0cmgrk2r8khxbgip5n41yg7jvs-xf86-input-evdev-2.11.0/lib/xorg/modules,/nix/store/f83gbb2wmwmxg3c920iircg4r145jl6a-xf86-input-libinput-1.5.0/lib/xorg/modules"
+[    15.261] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    15.261] (II) Loader magic: 0x659e40
+[    15.261] (II) Module ABI versions:
+[    15.261] 	X.Org ANSI C Emulation: 0.4
+[    15.261] 	X.Org Video Driver: 25.2
+[    15.261] 	X.Org XInput driver : 24.4
+[    15.261] 	X.Org Server Extension : 10.0
+[    15.262] (EE) systemd-logind: failed to get session: PID 1358 does not belong to any known session
+[    15.262] (II) xfree86: Adding drm device (/dev/dri/card0)
+[    15.262] (II) Platform probe for /sys/devices/pci0000:00/0000:00:01.0/drm/card0
+[    15.264] (--) PCI:*(0@0:1:0) 1af4:1050:1af4:1100 rev 1, Mem @ 0xfc000000/8388608, 0x70e0000000/16384, 0xfea14000/4096, BIOS @ 0x????????/131072
+[    15.264] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[    15.264] (II) "glx" will be loaded by default.
+[    15.264] (II) LoadModule: "glx"
+[    15.264] (II) Loading /nix/store/ykck7gdd6szwrb3qnpb5y5fvjlnmzhz0-xorg-server-21.1.18/lib/xorg/modules/extensions/libglx.so
+[    15.264] (II) Module glx: vendor="X.Org Foundation"
+[    15.264] 	compiled for 1.21.1.18, module version = 1.0.0
+[    15.264] 	ABI class: X.Org Server Extension, version 10.0
+[    15.264] (II) LoadModule: "modesetting"
+[    15.265] (II) Loading /nix/store/ykck7gdd6szwrb3qnpb5y5fvjlnmzhz0-xorg-server-21.1.18/lib/xorg/modules/drivers/modesetting_drv.so
+[    15.265] (II) Module modesetting: vendor="X.Org Foundation"
+[    15.265] 	compiled for 1.21.1.18, module version = 1.21.1
+[    15.265] 	Module class: X.Org Video Driver
+[    15.265] 	ABI class: X.Org Video Driver, version 25.2
+[    15.265] (II) LoadModule: "fbdev"
+[    15.265] (II) Loading /nix/store/lx6x6hsap5zlrwx6rhq6g1pgx7rrbja1-xf86-video-fbdev-0.5.0/lib/xorg/modules/drivers/fbdev_drv.so
+[    15.265] (II) Module fbdev: vendor="X.Org Foundation"
+[    15.265] 	compiled for 1.21.1.18, module version = 0.5.0
+[    15.265] 	Module class: X.Org Video Driver
+[    15.265] 	ABI class: X.Org Video Driver, version 25.2
+[    15.265] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    15.265] (II) FBDEV: driver for framebuffer: fbdev
+[    15.265] (EE) 
+Fatal server error:
+[    15.265] (EE) parse_vt_settings: Cannot open /dev/tty0 (Permission denied)
+[    15.265] (EE) 
+[    15.265] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[    15.265] (EE) Please also check the log file at "/home/somya/.local/share/xorg/Xorg.1.log" for additional information.
+[    15.265] (EE) 
+[    15.265] (WW) xf86CloseConsole: KDSETMODE failed: Bad file descriptor
+[    15.265] (WW) xf86CloseConsole: VT_GETMODE failed: Bad file descriptor
+[    15.265] (EE) Server terminated with error (1). Closing log file.

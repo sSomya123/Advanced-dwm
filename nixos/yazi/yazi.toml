@@ -1,0 +1,4 @@
+[plugin]
+prepend_previewers = [
+  { name = "*.ipynb", run = "nbpreview" },
+]
