@@ -1,6 +1,6 @@
 #!/bin/bash
 xrandr --output Virtual-1 --mode 1920x1080
-nitrogen --set-zoom-fill ~/Downloads/wallpaper2.jpg
+~/.fehbg
 dunst &
 slstatus &
 #exec dwmblocks &:w
