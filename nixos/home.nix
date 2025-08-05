@@ -157,6 +157,11 @@
       backend = "glx";
       vSync = true;
       settings = {
+        shadow = true;
+        shadow-offset-x = -10;
+        shadow-offset-y = -15;
+        shadow-radius = 12;
+        shadow-opacity = 0.75;
         corner-radius = 10.0;
         rounded-corners-exclude = [
           #"window_type = 'normal'",
@@ -170,7 +175,7 @@
           background-fixed = false;
           opacity-rule = [ "90:class_g = 'kitty'" ];
         };
-    };
+      };
   };
     programs.rofi = {
       enable = true;

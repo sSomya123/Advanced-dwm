@@ -9,6 +9,8 @@ static const unsigned int gappov    = 30;       /* vert outer gap between window
 static       int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
+static const int vertpad						= 10;
+static const int sidepad						= 1;
 static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=12" };
 static const char dmenufont[]       = { "monospace:size=10" };
 static const char col_gray1[]       = "#24273a";
@@ -20,6 +22,11 @@ static const char *colors[][3]      = {
     /*               fg         bg         border   */
     [SchemeNorm] = { col_gray3, col_gray1, col_cyan },
     [SchemeSel]  = { col_gray4, col_cyan,  col_gray2  },
+};
+/*autostart*/
+static const char *autostart[] = {
+	"kitty",NULL,
+	NULL/*terminate*/
 };
 /* tagging */
 static const char *tags[] = { "", "", "", "", "󱄅", "", "", "", "" };

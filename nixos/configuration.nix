@@ -81,10 +81,10 @@ services.pipewire.pulse.enable = true;
 					 url = "https://dwm.suckless.org/patches/pertag/dwm-pertag-20200914-61bb8b2.diff";
           				 sha256 = "sha256-wRZP/27V7xYOBnFAGxqeJFXdoDk4K1EQMA3bEoAXr/0=";
 })
-				(pkgs.fetchpatch {
-					url = "https://dwm.suckless.org/patches/fancybar/dwm-fancybar-20220527-d3f93c7.diff";
-          				sha256 = "sha256-twTkfKjOMGZCQdxHK0vXEcgnEU3CWg/7lrA3EftEAXc=";
-})
+    #		(pkgs.fetchpatch {
+    #			url = "https://dwm.suckless.org/patches/fancybar/dwm-fancybar-20220527-d3f93c7.diff";
+     #     				sha256 = "sha256-twTkfKjOMGZCQdxHK0vXEcgnEU3CWg/7lrA3EftEAXc=";
+#})
 		#		/etc/nixos/dwm/dwm/patches/dwm-cfacts-vanitygaps-6.4_combo.diff
 ];
          
@@ -96,7 +96,7 @@ services.pipewire.pulse.enable = true;
     xrandr --output Virtual-1 --mode 1920x1080
     ~/.fehbg
     dunst &
-    slstatus &
+    exec dwmblocks &
     xss-lock -- /run/wrappers/bin/slock &
     clipmenud &
     xclip &
@@ -150,13 +150,30 @@ programs = {
 	];
     shell = pkgs.zsh;
   };
-
- nixpkgs.overlays = [
-	(final: prev: {
-     slstatus = prev.slstatus.overrideAttrs (old: { src = /etc/nixos/slstatus ;});
-
-	})
-  ];
+   nixpkgs.overlays = [
+  (final: prev: {
+    slstatus = prev.slstatus.overrideAttrs (old: {
+      src = /etc/nixos/slstatus;
+    });
+  })
+  (final: prev: {
+    st = prev.st.overrideAttrs (old: {
+      src = /etc/nixos/st;
+       patches = [
+          /etc/nixos/st/patches/st-alpha-20240814-a0274bc.diff
+          /etc/nixos/st/patches/st-bold-is-not-bright-20190127-3be4cf1.diff
+          /etc/nixos/st/patches/st-boxdraw_v2-0.8.5.diff
+          /etc/nixos/st/patches/st-clipboard-0.8.3.diff
+          #/etc/nixos/st/patches/st-copyurl-0.6.diff
+          /etc/nixos/st/patches/st-dracula-0.8.5.diff
+          #/etc/nixos/st/patches/st-ligatures-20241226-0.9.2.diff
+          /etc/nixos/st/patches/st-scrollback-0.9.2.diff
+          /etc/nixos/st/patches/st-scrollback-mouse-0.9.2.diff
+        ];
+    });
+  })
+];
+ 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
@@ -197,6 +214,8 @@ programs = {
     mpc
     ncmpcpp
     mediainfo
+    pkg-config
+    pcre
    ];
 
 
@@ -233,10 +252,10 @@ fonts.packages = with pkgs; [
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "25.05"; # Did you read the comment?
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
-  services.flatpak.enable = true;
-  xdg.portal.enable = true;
-  xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-gtk];
-  xdg.portal.config.common.default = "*";
+ # services.flatpak.enable = true;
+ # xdg.portal.enable = true;
+ # xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-gtk];
+ # xdg.portal.config.common.default = "*";
   security.wrappers.slock = {
     source = "${pkgs.slock}/bin/slock";
     owner = "root";
